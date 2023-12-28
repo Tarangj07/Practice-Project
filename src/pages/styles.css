@@ -1,0 +1,65 @@
+html {
+    box-sizing: border-box;
+    background-color: #ffebcd;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: 0 10vw 10vh 1vw;
+    text-align: center;
+    font-family: arial;
+    height: 60vh;
+    width: 100%;
+    /* background: linear-gradient(to bottom right, rgb(83, 83, 255), pink); */
+    background-image: linear-gradient(to right bottom, #57f687, #13e6a0, #00d5b0, #00c2b6, #3aafb3);
+
+}
+
+.price {
+    color: blue;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+
+a {
+    color: blue;
+}
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    color: red;
+}
+
+.card img,
+.card h1,
+.card p {
+    padding: 2.2%;
+}
